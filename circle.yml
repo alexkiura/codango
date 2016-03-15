@@ -13,8 +13,9 @@ test:
     - python codango/manage.py bower install --settings=codango.settings.test
     - python codango/manage.py collectstatic --noinput --settings=codango.settings.test
     - python codango/manage.py test codango --settings=codango.settings.test
-  post:
-    - coveralls
+    - coverage run --source codango/manage.py test --settings=codango.settings.test -s
+    - COVERALLS_REPO_TOKEN=VW8qhqANSbF9vi47Wpg2aocVA7geNxMWO coveralls
+    
 deployment:
   staging:
     branch: develop
