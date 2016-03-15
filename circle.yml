@@ -13,6 +13,8 @@ test:
     - python codango/manage.py bower install --settings=codango.settings.test
     - python codango/manage.py collectstatic --noinput --settings=codango.settings.test
     - python codango/manage.py test codango --settings=codango.settings.test
+  post:
+    - coveralls
 deployment:
   staging:
     branch: develop
