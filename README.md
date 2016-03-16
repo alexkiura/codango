@@ -1,5 +1,5 @@
 # Codango
-[![Coverage Status](https://coveralls.io/repos/github/andela/codango/badge.svg?branch=develop)](https://coveralls.io/github/andela/codango?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/andela/codango/badge.svg?branch=ch-add-badges-115594687)](https://coveralls.io/github/andela/codango?branch=ch-add-badges-115594687)
 ## Description
 Codango is a Resource Sharing Social Network for Coders.
 
