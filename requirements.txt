@@ -21,7 +21,7 @@ meld3==1.0.2
 mock==1.0.1
 oauthlib==1.0.3
 pbr==1.5.0
-Pillow==2.9.0
+Pillow==10.0.1
 psycopg2==2.6.1
 pycrypto==2.6.1
 python-openid==2.2.5
